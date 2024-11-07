@@ -34,7 +34,7 @@ function copiar(){
     setTimeout(()=>{
         alerta.classList.add("fade-out");
         setTimeout(()=> {
-
+            alerta.classList.remove("fade-out");
             document.getElementById("senha").value = "";
             document.getElementById("charmin").value = "";
             document.getElementById("alerta").innerHTML = ""
