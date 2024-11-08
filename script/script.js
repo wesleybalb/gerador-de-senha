@@ -3,7 +3,7 @@ function geraSenha(){
     let novoTexto = ``
     let aleatorio = Math.floor(Math.random() * (122 - 33 + 1)) + 33
 
-    if(charMin < 8){
+    if(charMin < 8 || charMin = ""){
         alert("Mínimo de 8 caracteres")
     }else{
     
